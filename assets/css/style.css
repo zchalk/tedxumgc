@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* New Header Styling */
+.tedx-header {
+    background-color: #111; /* Or a similar dark background color as in the image */
+    color: #fff;
+    padding: 20px; /* Adjust padding as needed */
+    text-align: left; /* Align text to the left */
+}
+
+.logo-container {
+    font-size: 2.5em; /* Adjust overall logo size */
+    line-height: 1; /* Adjust line height for vertical alignment */
+}
+
+.ted {
+    color: #e62b1e; /* TED red color */
+    font-weight: bold; /* Make TED bold */
+}
+
+.x {
+    color: #e62b1e; /* TED red color */
+    font-size: 0.6em; /* Make 'x' smaller */
+    vertical-align: middle; /* Adjust vertical alignment */
+    position: relative;
+    top: -0.3em; /* Adjust vertical position to align with the image */
+}
+
+.rest {
+    font-weight: bold; /* Make UMGC Okinawa bold */
+}
+
+.tagline {
+    color: #e62b1e; /* TED red color */
+    font-size: 0.8em; /* Make tagline smaller */
+    margin-top: 5px; /* Add some space above the tagline */
+}
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #e62b1e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: #555;
+    margin-top: 1.5em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.reception-notes {
+    font-style: italic;
+    color: #666;
+}
+
+a {
+    color: #e62b1e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
