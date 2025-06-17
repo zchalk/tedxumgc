@@ -93,6 +93,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: #e62b1e; /* TED red */
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c02319; /* Slightly darker red on hover */
+    text-decoration: none;
+}
 
 footer {
     text-align: center;
